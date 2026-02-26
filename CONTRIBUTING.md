@@ -25,7 +25,7 @@ automatically adds the following to users' trunk.yaml:
 plugins:
   sources:
     - id: trunk
-      uri: https://github.com/trunk-io/plugins
+      uri: https://github.com/Unity-Billal-mesloub/plugins
       ref: <latest_release>
 ```
 
@@ -156,7 +156,7 @@ running `trunk upgrade` to automatically update their plugin version to the late
 plugins:
   sources:
     - id: trunk
-      uri: https://github.com/trunk-io/plugins
+      uri: https://github.com/Unity-Billal-mesloub/plugins
       ref: v1.2.5 # will change to the latest release on next `trunk upgrade`
 ```
 
