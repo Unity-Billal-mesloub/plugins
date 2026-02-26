@@ -22,7 +22,7 @@ import this repo as a plugin, via this snippet in `.trunk/trunk.yaml`:
 plugins:
   sources:
     - id: trunk
-      uri: https://github.com/trunk-io/plugins
+      uri: https://github.com/Unity-Billal-mesloub/plugins
       ref: v1.5.0
 ```
 
@@ -93,11 +93,8 @@ trunk check enable {linter}
 | YAML            | [prettier], [semgrep], [yamlfmt], [yamllint]                                                                                             |
 
 [actionlint]: https://trunk.io/linters/infra/actionlint
-[ansible-lint]: https://github.com/ansible/ansible-lint#readme
-[autopep8]: https://github.com/hhatto/autopep8#readme
 [bandit]: https://trunk.io/linters/python/bandit
-[biome]: https://github.com/biomejs/biome#readme
-[black]: https://github.com/psf/black#readme
+[black]: https://github.com/Unity-Educational-Formation/black#readme
 [brakeman]: https://trunk.io/linters/security/brakeman
 [buf]: https://github.com/bufbuild/buf#readme
 [buildifier]: https://github.com/bazelbuild/buildtools/blob/master/buildifier/README.md
