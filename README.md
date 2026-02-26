@@ -95,110 +95,54 @@ trunk check enable {linter}
 [actionlint]: https://trunk.io/linters/infra/actionlint
 [bandit]: https://trunk.io/linters/python/bandit
 [black]: https://github.com/Unity-Educational-Formation/black#readme
-[brakeman]: https://trunk.io/linters/security/brakeman
-[buf]: https://github.com/bufbuild/buf#readme
-[buildifier]: https://github.com/bazelbuild/buildtools/blob/master/buildifier/README.md
-[cfnlint]: https://github.com/aws-cloudformation/cfn-lint#readme
+[brakeman]: https://trunk.io/linters/security/brakeman 
 [checkov]: https://trunk.io/linters/security/checkov
-[circleci]: https://github.com/CircleCI-Public/circleci-cli#readme
 [clang-format]: https://clang.llvm.org/docs/ClangFormat.html
 [clang-tidy]: https://clang.llvm.org/extra/clang-tidy/
-[clippy]: https://github.com/rust-lang/rust-clippy#readme
+[clippy]: https://github.com/Unity-Billal-mesloub/rust-clippy#readme
 [cmake-format]: https://cmake-format.readthedocs.io/en/latest
-[codespell]: https://github.com/codespell-project/codespell#readme
-[cspell]: https://github.com/streetsidesoftware/cspell#readme
 [cue-fmt]: https://cuelang.org/
 [dart]: https://dart.dev/tools/sdk
-[deno]: https://deno.land/manual
-[detekt]: https://github.com/detekt/detekt#readme
-[djlint]: https://github.com/Riverside-Healthcare/djlint#readme
-[dotenv-linter]: https://github.com/dotenv-linter/dotenv-linter#readme
-[dotnet-format]: https://github.com/dotnet/format#readme
-[dustilock]: https://github.com/Checkmarx/dustilock
+[deno]: https://deno.land/manual  
 [eslint]: https://eslint.org/docs/latest/
 [flake8]: https://trunk.io/linters/python/flake8
 [git-diff-check]: https://git-scm.com/docs/git-diff
 [gitleaks]: https://trunk.io/linters/security/gitleaks
 [gofmt]: https://pkg.go.dev/cmd/gofmt
 [gofumpt]: https://pkg.go.dev/mvdan.cc/gofumpt
-[goimports]: https://pkg.go.dev/golang.org/x/tools/cmd/goimports
-[gokart]: https://github.com/praetorian-inc/gokart
-[golangci-lint]: https://github.com/golangci/golangci-lint#readme
-[golines]: https://pkg.go.dev/github.com/segmentio/golines
-[google-java-format]: https://github.com/google/google-java-format#readme
-[graphql-schema-linter]: https://github.com/cjoudrey/graphql-schema-linter#readme
-[hadolint]: https://github.com/hadolint/hadolint#readme
-[haml-lint]: https://github.com/sds/haml-lint#readme
-[include-what-you-use]: https://github.com/include-what-you-use/include-what-you-use#readme
-[isort]: https://github.com/PyCQA/isort#readme
-[ktlint]: https://github.com/pinterest/ktlint#readme
-[kube-linter]: https://github.com/stackrox/kube-linter#readme
-[ls-lint]: https://github.com/loeffel-io/ls-lint#readme
-[markdownlint]: https://github.com/DavidAnson/markdownlint#readme
-[markdownlint-cli2]: https://github.com/DavidAnson/markdownlint-cli2#readme
-[markdown-table-prettify]: https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt#readme
-[markdown-link-check]: https://github.com/tcort/markdown-link-check#readme
-[mypy]: https://github.com/python/mypy#readme
-[nancy]: https://github.com/sonatype-nexus-community/nancy#readme
-[nbstripout]: https://github.com/kynan/nbstripout#readme
-[nixpkgs-fmt]: https://github.com/nix-community/nixpkgs-fmt
+[goimports]: https://pkg.go.dev/golang.org/x/tools/cmd/goimports  
+[golines]: https://pkg.go.dev/github.com/segmentio/golines  
+[isort]: https://github.com/Unity-Billal-mesloub/isort#readme      
+[mypy]: https://github.com/Unity-diverse-range-of-warehouses/mypy#readme  
+[nixpkgs-fmt]: https://github.com/Unity-Nix/nixpkgs-fmt
+[nixpkgs-fmt]: https://github.com/Unity-Billal-mesloub/nixpkgs-fmt
 [opa]: https://www.openpolicyagent.org/docs/latest/cli/
-[osv-scanner]: https://trunk.io/linters/security/osv-scanner
-[oxipng]: https://github.com/shssoichiro/oxipng#readme
+[osv-scanner]: https://trunk.io/linters/security/osv-scanner 
 [perlcritic]: https://metacpan.org/pod/Perl::Critic
-[perltidy]: https://metacpan.org/dist/Perl-Tidy/view/bin/perltidy
-[php-cs-fixer]: https://github.com/PHP-CS-Fixer/PHP-CS-Fixer#readme
+[perltidy]: https://metacpan.org/dist/Perl-Tidy/view/bin/perltidy 
 [phpstan]: https://phpstan.org/
 [pmd]: https://pmd.github.io/
 [pragma-once]: linters/pragma-once/README.md
-[prettier]: https://github.com/prettier/prettier#readme
-[pre-commit-hooks]: https://pre-commit.com/hooks.html
-[prisma]: https://github.com/prisma/prisma#readme
-[psscriptanalyzer]: https://github.com/PowerShell/PSScriptAnalyzer
-[pylint]: https://github.com/PyCQA/pylint#readme
-[pyright]: https://github.com/microsoft/pyright
-[regal]: https://github.com/StyraInc/regal#readme
-[remark-lint]: https://github.com/remarkjs/remark-lint#readme
-[renovate]: https://github.com/renovatebot/renovate#readme
-[rome]: https://github.com/rome/tools#readme
-[rubocop]: https://github.com/rubocop/rubocop#readme
+[prettier]: https://github.com/Unity-Billal-mesloub/prettier#readme
+[pre-commit-hooks]: https://pre-commit.com/hooks.html 
+[pyright]: https://github.com/Unity-Billal-mesloub/pyright 
+[rome]: https://github.com/Unity-Billal-mesloub/tools#readme
+[rubocop]: https://github.com/Unity-Cloud/rubocop#readme
 [ruff]: https://trunk.io/linters/python/ruff
-[rufo]: https://github.com/ruby-formatter/rufo#readme
-[rustfmt]: https://github.com/rust-lang/rustfmt#readme
-[scalafmt]: https://github.com/scalameta/scalafmt#readme
-[semgrep]: https://github.com/returntocorp/semgrep#readme
+[rustfmt]: https://github.com/Unity-Billal-mesloub/rustfmt#readme 
 [shellcheck]: https://trunk.io/linters/shell/shellcheck
-[shfmt]: https://github.com/mvdan/sh#readme
-[sort-package-json]: https://github.com/keithamus/sort-package-json#readme
-[sql-formatter]: https://github.com/sql-formatter-org/sql-formatter#readme
-[sqlfluff]: https://github.com/sqlfluff/sqlfluff#readme
-[sqlfmt]: https://github.com/tconbeer/sqlfmt#readme
-[squawk]: https://github.com/sbdchd/squawk#readme
-[snyk]: https://github.com/snyk/cli#readme
-[standardrb]: https://github.com/testdouble/standard#readme
-[stringslint]: https://github.com/dral3x/StringsLint#readme
-[stylelint]: https://github.com/stylelint/stylelint#readme
-[stylua]: https://github.com/JohnnyMorganz/StyLua/tree/main
+[shfmt]: https://github.com/Unity-Billal-mesloub/sh#readme   
 [sourcery]: https://sourcery.ai/
-[svgo]: https://trunk.io/linters/nodejs/svgo
-[swiftformat]: https://github.com/nicklockwood/SwiftFormat#readme
-[swiftlint]: https://github.com/realm/SwiftLint#readme
-[taplo]: https://github.com/tamasfe/taplo#readme
-[terrascan]: https://github.com/tenable/terrascan#readme
+[svgo]: https://trunk.io/linters/nodejs/svgo 
 [terraform]: https://developer.hashicorp.com/terraform/cli/code
 [tofu]: https://opentofu.org/
-[terragrunt]: https://terragrunt.gruntwork.io/docs/getting-started/quick-start/
-[tflint]: https://github.com/terraform-linters/tflint#readme
-[tfsec]: https://github.com/aquasecurity/tfsec
+[terragrunt]: https://terragrunt.gruntwork.io/docs/getting-started/quick-start/ 
 [trivy]: https://trunk.io/linters/security/trivy
-[trufflehog]: https://trunk.io/linters/security/trufflehog
-[trunk-toolbox]: https://github.com/trunk-io/toolbox#readme
-[txtpbfmt]: https://github.com/protocolbuffers/txtpbfmt#readme
-[ty]: https://github.com/astral-sh/ty#readme
+[trufflehog]: https://trunk.io/linters/security/trufflehog 
+[ty]: https://github.com/Unity-Billal-mesloub/ty#readme
 [vale]: https://vale.sh/docs/
-[yamlfmt]: https://github.com/google/yamlfmt#readme
 [yamllint]: https://trunk.io/linters/yaml/yamllint
-[yapf]: https://github.com/google/yapf#readme
+
 
 <br/>
 
@@ -216,9 +160,8 @@ trunk actions enable {action}
 
 | action                                                                                                                                                                           | description                                                |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| [`buf-gen`](actions/buf/README.md)                                                                                                                                               | run `buf` on .proto file change                            |
-| [`commitizen`](actions/commitizen/README.md)                                                                                                                                     | enforce conventional commits and manage releases           |
-| [`commitlint`](https://github.com/conventional-changelog/commitlint)                                                                                                             | enforce conventional commit message for your local commits |
+                                                                                                                                      | [`buf-gen`](actions/buf/README.md)         | run `buf` on .proto file change                            |
+| [`commitizen`](actions/commitizen/README.md)                                                                                                                                     | enforce conventional commits and manage releases                                       
 | [`go-mod-tidy`](actions/go-mod-tidy/README.md)                                                                                                                                   | automatically tidy go.mod file                             |
 | [`go-mod-tidy-vendor`](actions/go-mod-tidy-vendor/README.md)                                                                                                                     | automatically tidy and vendor go.mod file                  |
 | [`git-blame-ignore-revs`](actions/git-blame-ignore-revs/README.md)                                                                                                               | automatically configure git to use .git-blame-ignore-revs  |
